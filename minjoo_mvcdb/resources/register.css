@@ -1,0 +1,191 @@
+body, h1, h2, p, a, ul, form, fieldset, input, legend, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: '맑은 고딕', '돋음', '고딕';
+    text-align: center;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0 10%;
+}
+
+header {
+    margin: 20px auto; 
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-size: 48px; 
+    color: #000; 
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.header h2 {
+    font-size: 24px;
+}
+
+.content {
+    text-align: center;
+    margin: 40px auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: none;
+    border: 1px solid;
+}
+
+.intro {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.join-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #ff4d4d;
+}
+
+.about {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.about p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+#sect {
+    background-color: #ffcccc; 
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#resultpage {
+	background-color: white;
+}
+
+.registration-form {
+    text-align: center;
+    margin: 40px auto;
+    width: 60%;
+    text-align: left; 
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset.card {
+    border: 1px solid #ccc;
+    border-radius: 20px; 
+    padding: 20px; 
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+fieldset.transparent {
+    border: none; 
+    background: none; 
+}
+
+legend {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+ul.card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0; 
+}
+
+ul.card li {
+    list-style: none;
+    margin-bottom: 10px; 
+    padding: 5px 0; 
+    text-align: left;
+	padding-left: 5%;
+}
+
+
+input[type="submit"], input[type="reset"] {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px; 
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #ff4d4d;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff; 
+}
+
+th, td {
+    border: 1px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffcccc; 
+}
+
+listtable {
+	width: auto;
+	margin-left: 5%; 
+    margin-right: 5%;
+	border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff; 
+}
